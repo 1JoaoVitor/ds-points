@@ -96,5 +96,6 @@ ON t1.idCustomer = t2.idCustomer
 )
 
 SELECT 
+    '{date}' AS dtRef, 
     *
 FROM tb_join

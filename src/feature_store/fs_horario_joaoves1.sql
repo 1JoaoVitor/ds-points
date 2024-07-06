@@ -3,7 +3,7 @@
    SELECT 
         idCustomer,
         pointsTransaction,
-        CAST(STRFTIME('%H', DATETIME(dtTransaction, '-3 hour')) AS INTEGER) AS hour --arrumando o fusohorário
+        CAST(STRFTIME('%H', DATETIME(dtTransaction, '-3 hour')) AS INTEGER) AS hour --arrumando o fuso horário
         
     FROM transactions
     

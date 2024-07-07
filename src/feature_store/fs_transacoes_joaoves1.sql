@@ -56,7 +56,7 @@ tb_vida AS (
     FROM transactions
     WHERE dtTransaction < '{date}'
     GROUP BY idCustomer
-)
+),
 
 tb_join AS (
 

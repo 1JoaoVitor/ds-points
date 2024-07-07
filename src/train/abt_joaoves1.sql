@@ -68,7 +68,7 @@ SELECT
     t6.sumLiveMinutes,
     t6.minLiveMinutes,
     t6.maxLiveMinutes,
-    t6.avgTransacaoPorDia
+     t6.avgTransacaoPorDia
 
 
 FROM tb_fl_churn AS t1

@@ -1,4 +1,4 @@
-WITH tb_transaction_products AS (
+ WITH tb_transaction_products AS (
     SELECT 
         t1.*,
         NameProduct,
@@ -103,7 +103,7 @@ tb_produto_max AS (
 SELECT
     '{date}' AS dtRef,
     t1.*,
-    t2.NameProduct
+    t2.NameProduct 
 FROM tb_share AS t1
 LEFT JOIN tb_produto_max AS t2
 ON t1.idCustomer = t2.idCustomer 
